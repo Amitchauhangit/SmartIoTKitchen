@@ -7,14 +7,13 @@ Created on Tue Nov 13 21:00:52 2018
 import subprocess
 import RPi.GPIO as GPIO
 import time
-import awsconfig
+import configure #should install AWS CLI :  pip3 install awscli --upgrade --user 
 import picamera # should install picamera : sudo apt-get install python-picamera
 
 camera = picamera.PiCamera() #camera object
 camera.capture("input_image.jpg")
 
-
-awsconfig.config()
+configure.config() #configure the aws cli settings. 
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
