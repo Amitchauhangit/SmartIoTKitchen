@@ -20,3 +20,12 @@
 Followed the tutorial by *Sentex* at www.pythonprogramming.net <br />
 Link : https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/
 
+## Sequence for given scripts:
+### At raspberry pi module
+1. raspb_main.py
+2. configure.py
+### At AWS EC2 linux instance
+3. main.sh 
+4. EC2_main.py
+5. detect.py
+6. MailToUser.py
