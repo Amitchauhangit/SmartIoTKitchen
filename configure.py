@@ -9,10 +9,10 @@ from subprocess import Popen,PIPE
 
 def config():
       p=Popen(["aws","configure"],stdin=PIPE)
-      p.communicate("AKIAJNVX2MRBHIBSXOMQ")
+      p.communicate("AWS Access Key ID")
       p.communicate("#\n")
-      p.communicate("smXgfQ2b4Lw8O51RmDLh+wYepWg1oaYWhfQpa8PB")
+      p.communicate("AWS Secret Access Key")
       p.communicate("#\n")
-      p.communicate("us-east-2")
+      p.communicate("us-east-2") #region name
       p.communicate("#\n")
 
