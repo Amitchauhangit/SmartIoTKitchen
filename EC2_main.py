@@ -8,7 +8,4 @@ time.sleep(1)
 
 detect.det()
 
-
-
-
 print("end")
