@@ -7,14 +7,14 @@ Created on Tue Nov 13 21:00:52 2018
 import subprocess
 import RPi.GPIO as GPIO
 import time
-import helpaws
+import awsconfig
 import picamera # should install picamera : sudo apt-get install python-picamera
 
 camera = picamera.PiCamera() #camera object
 camera.capture("input_image.jpg")
 
 
-helpaws.main()
+awsconfig.config()
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
