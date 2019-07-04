@@ -15,6 +15,7 @@
 1. Python 3.x
 2. Python 3 pip (pip3) package.
 3. Opencv 3.0 or later.
+4. AWS EC2 , AWS S3, AWS SES services accounts.
 
 ## Building your own haar-cascade casifier.
 Followed the tutorial by *Sentex* at www.pythonprogramming.net <br />
