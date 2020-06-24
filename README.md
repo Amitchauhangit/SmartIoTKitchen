@@ -9,7 +9,7 @@
 1. Python 3.x
 2. Python 3 pip (pip3) package.
 3. AWS CLI package.
-4. RPI.GPIO package.AWS EC2 , AWS S3, AWS SES services accounts.
+4. RPI.GPIO package.
 
 ## Software packages requirements over AWS EC2:
 1. Python 3.x
