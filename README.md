@@ -1,3 +1,6 @@
+![Project-flow-diagram](/Flow-Diagram.png "Project Flow Chart" )
+
+
 # SmartIoTKitchen
 ## Hardware requirements:
 1. Raspberry pi 3/zero with wifi module.
