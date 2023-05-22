@@ -29,7 +29,7 @@ def test_function(fetchedblob: func.InputStream):
 
         det(local_file_path,file_name, metadata)
         
-        logging.info("done")
+        logging.info("Completed")
     except Exception as e:
         logging.error("Error occurred while downloading the file: %s", str(e))
 
