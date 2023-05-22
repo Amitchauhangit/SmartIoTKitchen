@@ -2,7 +2,7 @@ import logging
 import azure.functions as func
 import tempfile
 import os
-from detect import det
+from objectdetection import det
 
 logging.basicConfig(filename='./file.log', filemode='w', level=logging.DEBUG)
 
