@@ -5,28 +5,27 @@
 3. Infrared module.
 
 
-## Software packages requirements over raspberry pi os:
+## Software packages requirements over raspberry pi os: 
 1. Python 3.x
 2. Python 3 pip (pip3) package.
-3. AWS CLI package.
-4. RPI.GPIO package.
+3. PiCamera package.
+4. Azure-Storage-Blob package.
+5. RPI.GPIO package.
 
-## Software packages requirements over AWS EC2:
+## Software packages requirements over Azure Function:
 1. Python 3.x
 2. Python 3 pip (pip3) package.
-3. Opencv 3.0 or later.
-4. AWS EC2 , AWS S3, AWS SES services accounts.
+3. Azure Function toolkit.
+4. Opencv 3.0 or later.
+5. Azure-Storage-Blob packaeg.
+
+## User Facing Webapp 
+1. Frontend: React
+2. Backend: Flask
+3. Storage: Azure Blob storage and Azure Cosmos DB (Mongo API)
+4. Key management: Azure KeyVault
 
 ## Building your own haar-cascade casifier.
 Followed the tutorial by *Sentex* at www.pythonprogramming.net <br />
 Link : https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/
 
-## Sequence for given scripts:
-### At raspberry pi module
-1. raspb_main.py
-2. configure.py
-### At AWS EC2 linux instance
-3. main.sh 
-4. EC2_main.py
-5. detect.py
-6. MailToUser.py
